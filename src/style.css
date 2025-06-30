@@ -1,0 +1,136 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #242424;
+}
+
+.to_do {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.to_do_container {
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 40px 30px 70px;
+  margin: 100px auto 20px;
+}
+
+.to_do_title {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 400px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.to_do_head {
+  margin: auto;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.to_do_input {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.to_do_list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #109206;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #04431e;
+}
+
+.taskTable {
+  font-size: 18px;
+  max-width: 600px;
+  width: 400px;
+  text-align: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.table_checkbox {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.myCheckbox {
+  width: 20px;
+  height: 20px;
+  vertical-align: baseline;
+}
+
+.RecycleBin {
+  width: 13px;
+  height: 13px;
+}
+
+.table_date {
+  width: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+.delete_task {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #555;
+  text-align: center;
+  align-items: baseline;
+}
+
+.checked {
+  color: #919191;
+  text-decoration: line-through;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button {
+    background-color: #109206;
+    color: #ffffff;
+  }
+}
